@@ -2,3 +2,5 @@
 .rvmrc
 *.swp
 .*.un~
+.netrwhist
+
