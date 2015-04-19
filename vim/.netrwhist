@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/greaber/.zprezto'
+let g:netrw_dirhist_2='/home/greaber/foo'
+let g:netrw_dirhist_3='/Users/grantreaber/safe/expt'
+let g:netrw_dirhist_4='/Users/grantreaber/factcheck/views'
