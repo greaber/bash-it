@@ -28,3 +28,8 @@ export SCM_CHECK=true
 
 # Load Bash It
 source $BASH_IT/bash_it.sh
+
+# greaber's customizations
+export LESS='-i -g -M -R -W'
+export PAGER=less
+export MANPAGER=less
