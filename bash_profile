@@ -33,3 +33,8 @@ source $BASH_IT/bash_it.sh
 export LESS='-i -g -M -R -W'
 export PAGER=less
 export MANPAGER=less
+enscript() {
+    for filename in "$@"; do
+        paps --paper Letter --header --landscape --columns=2 --font='PTMono 8' --left-margin=10 --right-margin=10 --top-margin=25 --bottom-margin=10 "$filename" | lpr
+    done
+}
