@@ -10,9 +10,9 @@ fi
 
 touch $HOME/.BASH_IT
 
-ln -s .vim $HOME/.vim
-ln -s vimrc $HOME/.vimrc
-ln -s tmux.conf $HOME/.tmux.conf
+ln -s $(pwd)/vim $HOME/.vim
+ln -s $(pwd)/vimrc $HOME/.vimrc
+ln -s $(pwd)/tmux.conf $HOME/.tmux.conf
 
 cat bash_profile >> $HOME/.bashrc
 if [[ $(whoami) = vagrant ]]; then
