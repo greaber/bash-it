@@ -1,4 +1,5 @@
-#!/usr/bin/env bash
+#### START OF BASH_IT section.
+#### Don't edit below this line!!
 
 # Path to the bash it configuration
 export BASH_IT=$HOME/.bash_it
