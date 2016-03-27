@@ -1,9 +1,6 @@
 inoremap jk <ESC>
 let mapleader = ","
 
-execute pathogen#infect()
-execute pathogen#helptags()
-
 filetype plugin indent on
 syntax on
 
@@ -13,7 +10,6 @@ set encoding=utf-8
 
 let g:solarized_termtrans = 1
 set background=light
-colorscheme solarized
 
 set linebreak
 "set list
